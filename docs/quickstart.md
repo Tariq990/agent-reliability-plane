@@ -1,6 +1,6 @@
 # First verified run (no model keys required)
 
-This walkthrough shows how to run Deep Seek Fix's **local, deterministic** checks. It does **not** make a live model call and does not claim that a model's generated code has been independently verified until you provide task-specific evidence.
+This walkthrough shows how to run Agent Reliability Plane's **local, deterministic** checks. It does **not** make a live model call and does not claim that a model's generated code has been independently verified until you provide task-specific evidence.
 
 > **License:** This is a source-available project under the Personal Non-Commercial Software License 1.0, **not** an OSI-approved open-source license. Review [LICENSE](../LICENSE) before using it, especially for commercial work or redistribution.
 
@@ -15,8 +15,8 @@ This walkthrough shows how to run Deep Seek Fix's **local, deterministic** check
 ## 1. Set up the workspace
 
 ```bash
-git clone https://github.com/Tariq990/deep-seek-fix.git
-cd deep-seek-fix
+git clone https://github.com/Tariq990/agent-reliability-plane.git
+cd agent-reliability-plane
 uv sync --all-extras --dev
 corepack pnpm install --frozen-lockfile
 ```

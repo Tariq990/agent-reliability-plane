@@ -1,4 +1,4 @@
-# Contributing to Deep Seek Fix
+# Contributing to Agent Reliability Plane
 
 Thanks for considering a contribution. This project prioritizes **reproducible evidence, narrowly scoped changes, and honest failure reporting** over impressive-looking success claims.
 
@@ -12,7 +12,7 @@ Thanks for considering a contribution. This project prioritizes **reproducible e
 - Deterministic test coverage for failure classifications, redaction or retry-loop handling.
 - A small bug fix with a failing test before the change and a passing test afterwards.
 
-If you are planning a large change or new integration, [open an issue](https://github.com/Tariq990/deep-seek-fix/issues) first and describe the motivating use case and required trust boundary.
+If you are planning a large change or new integration, [open an issue](https://github.com/Tariq990/agent-reliability-plane/issues) first and describe the motivating use case and required trust boundary.
 
 ## Local setup (no provider keys)
 

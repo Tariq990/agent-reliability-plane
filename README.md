@@ -1,6 +1,6 @@
-# Deep Seek Fix
+# Agent Reliability Plane
 
-Deep Seek Fix is a deterministic reliability control plane for inexpensive coding models and agents such as DeepSeek, GLM/Z.ai, Qwen, Kimi, MiniMax, OpenAI-compatible APIs, and OpenCode-based agents.
+**Agent Reliability Plane** (formerly *Deep Seek Fix*) is a deterministic reliability control plane for coding models and agents such as DeepSeek, GLM/Z.ai, Qwen, Kimi, MiniMax, OpenAI-compatible APIs, and OpenCode-based agents.
 
 It does not make any language model mathematically incapable of error. Instead, it keeps the model out of the trust boundary: the model proposes actions, deterministic code authorizes tool use, and deterministic evidence decides whether work can be delivered.
 
@@ -10,7 +10,7 @@ Evidence records include bounded redacted stdout/stderr snapshots in addition to
 
 ## Start here — verify an AI agent's claims
 
-**Agent says done? Check the evidence.** Deep Seek Fix checks execution against task contracts, bounded evidence and deterministic verification gates. A passing test is only evidence for the requirements it covers; the tool does not promise zero hallucinations or universal agent correctness.
+**Agent says done? Check the evidence.** Agent Reliability Plane checks execution against task contracts, bounded evidence and deterministic verification gates. A passing test is only evidence for the requirements it covers; the tool does not promise zero hallucinations or universal agent correctness.
 
 - **New here?** Follow the [first verified run](docs/quickstart.md) — local, reproducible, and no API keys needed.
 - **Want to evaluate the approach?** Read the [architecture](docs/architecture.md), [evidence model](docs/evidence-model.md) and [limitations](docs/limitations.md).
@@ -46,8 +46,8 @@ Final verdicts are limited to `VERIFIED_PASS`, `VERIFIED_FAIL`, `BLOCKED`, `INCO
 ### Clone and install
 
 ```powershell
-git clone https://github.com/Tariq990/deep-seek-fix.git
-cd deep-seek-fix
+git clone https://github.com/Tariq990/agent-reliability-plane.git
+cd agent-reliability-plane
 uv sync --all-extras --dev
 corepack pnpm install --frozen-lockfile
 ```
